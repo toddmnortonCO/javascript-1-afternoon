@@ -89,9 +89,12 @@ function nameCheck(name) {
   } else if (name == "Bryan") {
     return "Hey Bryan!"
   } else {
-    return "Cool name " + name;
+    return "Cool name " + name + ".";
   }
 }
+
+console.log(  nameCheck("Joe"));
+// Returns "Cool name Joe"
 
 //////////////////PROBLEM 11////////////////////
 
