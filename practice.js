@@ -14,19 +14,19 @@ var myAge = 35
 
 //Create a variable called lovesCode that is a boolean data type
 
-var lovesCode = true
+var lovesCode = true;
 
 //////////////////PROBLEM 4////////////////////
 
 //Create a variable called greatestFear that is undefined because we fear nothing
 
-var greatestFear
+var greatestFear;
 
 //////////////////PROBLEM 5////////////////////
 
 //Create a variable called devMountainGoal that is null because we are just starting out
 
-var devMountainGoal = False
+var devMountainGoal = null;
 
 //////////////////PROBLEM 6////////////////////
 
@@ -48,12 +48,12 @@ function newGreeting() {
   newGreeting = greeting;
 }
 
-//////////////////PROBLEM 8////////////////////
+//////////////////POBLEM 8////////////////////
 
 //Create an array called groceries with the values
 //"apples", "milk", "eggs", "bread"
 
-var grocries = ["apples", "milk", "eggs", "bread"]
+var groceries = ["apples", "milk", "eggs", "bread"];
 
 //////////////////PROBLEM 9////////////////////
 
@@ -85,9 +85,9 @@ var devMountainClassPet = dog.name;
 
 
 function nameCheck(name) {
-  if (name = "Steven") {
+  if (name == "Steven") {
     return "What is up Steven?"
-  } else if (name = "Bryan") {
+  } else if (name == "Bryan") {
     return "Hey Bryan!"
   } else {
     return "Cool name " + name;
@@ -120,13 +120,15 @@ var mathSum = add(3, 4);
 // Otherwise, you should return the string 'you need to evaluate your favorite color choice'
 
 function faveColorFinder(color) {
-  if (color = 'red') {
+  if (color == 'red') {
     return "red is a great color"
-  } else if (color = 'green') {
+  } else if (color == 'green') {
     return "green is a solid favorite color"
-  } else if (color = 'black') {
+  } else if (color == 'black') {
     return "so trendy"
-  } else "you need to evaluate your favorite color choice"
+  } else {
+    return "you need to evaluate your favorite color choice"
+  }
 }
 
 //////////////////PROBLEM 13////////////////////
@@ -154,10 +156,10 @@ function pond() {
 let globalScope = ["duck"];
 
 //This array should contain the variable names (as strings) accessible in the bathroom function.
-let bathroomScope = ["duck", "sailorDuck", "rubberDuck"];
+let bathroomScope = ["duck", "rubberDuck"];
 
 //This array should contain the variable names (as strings) accessible in the bathtub function.
-let bathtubScope = ["duck", "sailorDuck"];
+let bathtubScope = ["duck", "rubberDuck", "sailorDuck"];
 
 //This array should contain the variable names (as strings) accessible in the pond function.
 let pondScope = ["duck", "realDuck"];
@@ -175,4 +177,4 @@ var newAge =+ myAge;
 
 // Good news! We can live forever. Set your age to 999
 
-var myAge = 999;
+var age = 999;
