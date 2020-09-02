@@ -44,9 +44,8 @@ function greeting(name) {
 //Write a function expression called newGreeting.
 //Give it the same functionality as the function greeting in Problem 6.
 
-function newGreeting() {
-  newGreeting = greeting;
-}
+let newGreeting = greeting;
+
 
 //////////////////POBLEM 8////////////////////
 
